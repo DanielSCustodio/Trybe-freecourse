@@ -23,7 +23,6 @@
  var resultado; 
  var primeiraString = "xx";
  var segundaString = "tt";
- 
 
 if(primeiraString.length >= segundaString.length) {
   resultado = segundaString + primeiraString
@@ -36,5 +35,6 @@ if(primeiraString.length >= segundaString.length) {
 } else {
   resultado = primeiraString + segundaString
 }
+ console.log(resultado);
 
- console.log(resultado)
+
